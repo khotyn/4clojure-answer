@@ -6,6 +6,5 @@
                   (if (some coll? first-ele)
                     (reduce #(conj %1 %2) result (step first-ele []))
                     (conj result first-ele))))
-              result)
-            )]
+              result))]
     (step coll [])))
