@@ -1,0 +1,1 @@
+(fn [s] (read-string (str "2r" s)))

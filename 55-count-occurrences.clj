@@ -1,0 +1,1 @@
+(fn [coll] (apply (partial merge-with #(+ %1 %2)) (map (fn [ele] {ele 1}) coll)))

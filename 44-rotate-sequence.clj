@@ -1,0 +1,1 @@
+(fn [n col] (let [step (mod n (count col))] (concat (drop step col) (take step col))))

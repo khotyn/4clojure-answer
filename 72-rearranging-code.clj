@@ -1,0 +1,1 @@
+(fn [arg] (reduce + arg))

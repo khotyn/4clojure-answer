@@ -1,0 +1,1 @@
+#(apply (partial map (fn [& eles] (apply list eles))) (partition %2 %1))
